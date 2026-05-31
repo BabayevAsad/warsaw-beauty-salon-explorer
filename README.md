@@ -8,7 +8,8 @@ Warsaw Beauty Salon Explorer is a full-stack application designed to help users 
 
 The project uses a standard Model-View-Controller (MVC) structure, which keeps the code organized by separating the data-fetching part, the server-side logic, and the user interface.
 
-<img width="2559" height="1528" alt="image" src="https://github.com/user-attachments/assets/eeb17afb-7c45-4ea0-a7f2-0204dfa70bd2" />
+<img width="2559" height="1530" alt="image" src="https://github.com/user-attachments/assets/d1e767da-245f-4d82-9277-9d159cfc903a" />
+
 <img width="2559" height="1522" alt="image" src="https://github.com/user-attachments/assets/a91262c4-23c4-47a6-9b25-b913e75218be" />
 
 
