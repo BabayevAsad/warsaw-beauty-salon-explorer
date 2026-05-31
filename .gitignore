@@ -1,33 +1,75 @@
-HELP.md
+# ========================================================================
+# Version Control Ignore File - Java / Maven / Spring Focus
+# ========================================================================
+
+# --- System Files ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Build Artifacts ---
 target/
-.mvn/wrapper/maven-wrapper.jar
+build/
+out/
+bin/
+# Protect source folders that might share names with build folders
 !**/src/main/**/target/
 !**/src/test/**/target/
+!**/src/main/**/build/
+!**/src/test/**/build/
 
-### STS ###
+# --- Compiled Files & Logs ---
+*.class
+*.log
+*.ctxt
+hs_err_pid*
+replay_pid*
+
+# --- Packages & Archives ---
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+# Exception: Allow Maven Wrapper JAR if you want it versioned (standard practice)
+# !.mvn/wrapper/maven-wrapper.jar
+
+# --- Environment & Secrets ---
+.env
+*.env.local
+*.properties.local
+*.yml.local
+
+# --- IntelliJ IDEA ---
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+# If you want to share project-wide settings, uncomment next line:
+# !.idea/runConfigurations/ 
+
+# --- Eclipse / STS ---
 .apt_generated
 .classpath
 .factorypath
 .project
-.settings
+.settings/
 .springBeans
 .sts4-cache
 
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
+# --- VS Code ---
+.vscode/
+*.code-workspace
 
-### NetBeans ###
+# --- NetBeans ---
 /nbproject/private/
 /nbbuild/
 /dist/
 /nbdist/
 /.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
 
-### VS Code ###
-.vscode/
+# --- Help & Documentation ---
+HELP.md
