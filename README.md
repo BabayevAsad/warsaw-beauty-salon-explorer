@@ -20,6 +20,17 @@ Automated Data Collection: The app automatically gathers salon information from 
 RESTful API: This is the bridge that allows the web interface to request and update salon data.
 Treatment CRUD: You can easily Add, Update, or Remove services from any salon catalog.
 
+## 🌐 Data Acquisition & Parsing Technology
+The project utilizes a specialized stack for web data extraction, focusing on parsing efficiency and structured data retrieval:
+
+Jsoup: The primary engine for the project. It handles the entire lifecycle of data acquisition:
+
+HTTP Networking: Executes secure GET requests while mimicking a real-world browser via custom User-Agent headers.
+
+DOM Traversal: Converts raw HTML into a traversable Document Object Model (DOM), allowing for precise data extraction using CSS selectors.
+
+Data Cleaning: Normalizes and sanitizes extracted HTML content into structured Java objects.
+
 
 ## 📋 Data Quality & Reliability
 To make sure the application stays stable and the data stays clean, I implemented these safety measures:
