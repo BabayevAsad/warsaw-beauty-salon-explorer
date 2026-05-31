@@ -45,6 +45,13 @@ CORS Enabled: This ensures the frontend and backend can talk to each other secur
 
 Testing Strategy: I wrote "Unit Tests" to check individual parts of the logic and "Integration Tests" to ensure the API works perfectly with the backend service.
 
+## ⚙️ Configuration
+You can adjust the number of salons fetched by the application in the src/main/resources/application.properties file. 
+* (salon.fetch.limit=20)
+
+<img width="1813" height="864" alt="image" src="https://github.com/user-attachments/assets/9403e7a1-9556-404a-aac5-afef215127a9" />
+
+
 ## 🛠️ Core Technologies:
 
 Java 21
