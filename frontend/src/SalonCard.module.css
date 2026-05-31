@@ -1,0 +1,18 @@
+.card {
+  background: #1e1e26;
+  border-radius: 12px;
+  padding: 20px;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+  border: 1px solid #333;
+  color: white;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+.title { margin: 0 0 10px 0; color: #f0f0f0; }
+.address { margin: 5px 0; color: #aaa; font-size: 0.9rem; }
+.footer { display: flex; justify-content: space-between; margin-top: 15px; }
