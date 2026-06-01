@@ -103,9 +103,9 @@ cd warsaw-beauty-salon-explorer
 Build and Run Backend:  (port:8080)
 
 Bash:
-* mvn clean install
-* mvn test
-* mvn spring-boot:run   
+* ./mvnw.cmd clean install
+* ./mvnw test
+* ./mvnw spring-boot:run   
 
 Run Frontend (React + Vite):
 
